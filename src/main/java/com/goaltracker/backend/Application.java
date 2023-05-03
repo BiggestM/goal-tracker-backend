@@ -1,13 +1,13 @@
-package com.goaltracker.goaltrackerbackend;
+package com.goaltracker.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GoalTrackerBackendApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GoalTrackerBackendApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
